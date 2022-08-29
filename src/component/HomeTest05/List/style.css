@@ -1,0 +1,15 @@
+.oraganization {
+    border: 1px solid brown;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 12px 0;
+}
+.oraganization-main {
+    margin-bottom: 10px;
+}
+
+.oraganization-footer button {
+    margin-right: 10px;
+    width: auto;
+    height: auto;
+}

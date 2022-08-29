@@ -1,0 +1,96 @@
+---KIEN THUC CO BAN
+1. onClick = {() => {onDelete(item)}} truyen item tu list.map
+2. const onDelete = (arr) => {   //arr: arrow,push variable (truyen vao) is random
+        const newList = list.filter((a) => {   //filter (list) what created from function onCreate
+            return a !== arr
+        })
+        setList(newList)   //setList again after filter list
+    }
+3. Create hasn't id | Edit has id | Duplicate same not hasn't id
+4. ngoai if ret obj
+trong if ret data
+5. filter return arrray
+6. find return obj (first item)  or undefine
+7. map return something same target (array, obj, ...)
+8. useEffect and useMemo need if,else bacause function always working  althought search empty
+useEffect need const [a, b] = useState('') and return nothing
+++++useEffect run just 1 time!!!!!!!!!!!!!!!!!!!!!++++
+useMemo need const newList = useMemo( () => {logic with if/else} ) and return a result
+9. Array used to use: forEach, find, filter, map
+forEach = for (loop)
+10. number, str, bool, obj, arr, function
+11. Function:
+	1. function A() {}
+	2. const A = () =>{}
+12. Logic luon nam trongt component
+-----CSS QUAN TRONG
+1. Ant Design, Grid
+2. Form : all
+
+--- FACTORY
+Dung factory, if/else, switch de phan quyen quan ly cho admin, users, guest
+
+--- CV
+ten, sdt, email, thong tin
+ky nang muon hoc trong tuong lai
+project da lam
+cac cong ty da lam ( thoi gian lam qua ngan bo qua)
+
+---Event,Queryseletor
+Add event (element).addEventListener( 'click',(0 => {} )
+delete event (element).removeEventListener( 'click',(0 => {} )
+document.querySeletor('') create a str
+document.querySeletorAll('button.number') : button(type), number(class)
+Get dom(input, html,body, class) :document.querySelector || document.querySelectorAll
+
+--TONG HOP 
+1. classList
+	{element}.classList.add ('user')
+	{element}.classList.remove ('user')
+	{element}.classList.has ('user')
+2. $(variable)
+	const ten = 'kha'
+	const ho = 'mai'
+const fyll name = 'thay $(ho) $(ten) day lop fullstack
+	
+3. ...rest   IMPORT!!!
+	const user = { name: 'kha', phone: '222', gender: 'male', age: '30'}
+	const { name, ...rest }
+	submit {rest} = user{ phone: '222', gender: 'male', age: '30'}
+
+---how to get data : 4 method
+get
+post
+put
+delete
+
+--- MOCKSPI & axios
+https://mockapi.io/
+npm install axios --save
+
+---
+heroku free update web test
+
+--- Lay gia tri cua bien React
+ plus str
+`http/....users/$(id)` === Dau `  ko phai '
+
+---Kinh nghiem lam viec
+hoc dh 0-3p30
+bat dau di lam cty thay giao 3p30-6p
+cty 2 cty pm quang trung 6p-17p30
+khoi nghiep voi ban be 17p30-23p30
+chuyen bang cap 23p30-25p30
+di lam cong an luong , 3 cty uotsourcing 26p-32p
+ctyhien tai 32p-end
+
+---
+react route-sign in
+--- Lam viec tren nhieu may haoc tren nhom
+github
+Sourcetree dowload
+1.Copy file vao file create tren github
+2.StageAll-Commit-push
+3.
+--- React router
+npm install --save react-router-dom
